@@ -1,0 +1,299 @@
+*{
+    box-sizing: border-box;
+    /*font-family: 'Pacifico', cursive;*/
+}
+
+/******************scroll to the top***********************/
+#scrollToTheTop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 30px;
+    border-radius: 15px;
+  }
+  
+  #scrollToTheTop:hover {
+    color: #007bff;
+    background-color: white;
+    font-size: 35px;
+  }
+/*****************************Home**************************************/
+
+/******* hover button carousel**********/
+.hover-button-carousel:hover{
+    background-color: white;
+    color: #007bff!important;
+}
+
+/*navbar hover*/
+.hover:hover{
+    /* background-color: #007bff; */
+    border-bottom:5px solid #007bff;
+    color: white!important;
+    /* border-radius: 12px; */
+}
+
+.activee{
+    background-color: #007bff;
+    border-bottom:5px solid #007bff;
+    border-radius: 12px;
+}
+/* carousel slider*/
+.carousel-item{
+    height: 800px;
+}
+/************************home prix professionalle efficase disponible********************/
+
+.home-first-card{
+    border: 1px rgb(207, 200, 200) solid;
+    border-radius: 15px;
+    box-shadow: 9px 9px 9px rgb(207, 200, 200);
+
+}
+/************************home Comment ca marche********************/
+
+.home-comment-ca-marche-body{
+    background: #000 url('../img/commen-body.jpg') fixed;
+    background-size: cover;
+    color: #fff;
+    width: 100%;
+    height:460px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+/*********************services***********************/
+#notre-services{
+    background: url('../img/contact.jpeg');
+    background-position: 0 -350px;
+    background-attachment: fixed;
+    height:350px;    
+    color: #000;
+    padding-top: 50px;
+}
+
+#what-we-do .img-fluid{
+    margin-top: 30px;
+    height: 450px;
+}
+/* card particuliers*/
+#services-card-particuliers img, #services-card-professionnels img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#services-card-particuliers img:hover, #services-card-professionnels img:hover  {
+	opacity: 1;
+	animation: flash 2s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+#services-card-particuliers .card{
+    border-radius: 15px;
+}
+#services-card-particuliers h3,#services-card-professionnels h3{
+    color: #007bff;
+    text-decoration: underline #007bff;
+    padding-bottom: 15px;
+}
+#services-card-particuliers .card-text, #services-card-professionnels .card-text{
+text-align: justify;
+font-size: 17px;
+}
+
+/*card  professionnels*/
+#services-card-professionnels{
+    display: none;
+}
+#btn-particuliers{
+    color: #007bff;
+    background-color: white;
+}
+#btn-particuliers:hover, #btn-professionnels:hover{
+    opacity: .7;;
+}
+
+/***********************Comment ca marche *******************/
+#comment-ca-marche{
+    background: url('../img/contact.jpeg');
+    background-position: -272px -391px;
+    background-attachment: fixed;
+    height:290px;    
+    color: #000;
+    padding-top: 50px;
+} 
+
+.comment-ca-marche-body{
+    background: #000 url('../img/commen-body.jpg') fixed;
+    background-size: cover;
+    color: #fff;
+    width: 100%;
+    height: 1600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+.color-overlay {
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.8;
+    position: absolute;
+}
+
+.comment-ca-march-text {
+    /*font-family: 'Pacifico', cursive;*/
+    font-size: 60px;
+    z-index: 1;
+}
+
+.comment-numbers{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    color: white;
+    background: #007bff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.comment-text{
+    font-size: 31px;
+}
+.comment-ca-march-paragraph{
+    text-align: justify;
+}
+.comment-ca-march-paragraph h5{
+    line-height: 40px;
+    font-size: 22px;
+
+}
+/************************contact us********************/
+#contact-us{
+    background: url('../img/contact.jpeg');
+    background-position: 0 -436px;
+    background-attachment: fixed;
+    height:250px;    
+    color: #000;
+    padding-top: 50px;
+}
+
+/**************footer section********************/
+
+footer{
+    background: #000;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer .fab{
+    color: #fff;
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1200px) {
+    .comment-ca-marche-body{
+        height: 2000px;
+      }
+}@media only screen and (max-width: 993px) {
+    .comment-ca-marche-body{
+        height: 2200px;
+    } 
+    .carousel-item{
+        height: 450px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .show-text-phone{
+        font-size: 30px!important;
+        display: block!important;
+        position: relative;
+        top: 80px;
+    }
+    .show-btn-phone{
+        font-size: 15px!important;
+        display: block!important;
+        position: relative;
+        top: 80px;
+    }
+    .carousel-item{
+        height: 400px;
+    }
+    /************************Comment ca marche ********************/
+    .comment-ca-marche-body{
+        height:4200px;
+    }
+    .comment-ca-march-paragraph{
+        padding: 0 20px;
+    }
+}
+@media only screen and (max-width: 769px) {
+    .carousel-item{
+        height: 250px;
+    }
+/************************Home Comment ca marche ********************/
+
+    .home-comment-ca-marche-body{
+        background: #000 url('../img/commen-body.jpg') fixed;
+        background-size: cover;
+        color: #fff;
+        width: 100%;
+        height:1500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+      }
+      .comment-numbers{
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        color: white;
+        background:#007bff ;
+        margin: auto;
+    }
+    .comment-text{
+        text-align: center;
+    }
+
+  }
+
+@media only screen and (max-width: 400px) {
+    .comment-ca-marche-body{
+        height:4700px;        
+    }    
+}

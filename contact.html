@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" 
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" 
+    integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+
+    
+    
+    <link rel="stylesheet" href="css/style.css">
+    <title>PACMA </title>
+</head>
+<body>
+
+  <!---------------Start Section Navbar------------------->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <a href="index.html" class="navbar-brand" href="#"><img src="./img/logo.png" width="100" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item mr-3 hover ">
+            <a href="index.html" class="nav-link text-primary" ><strong><i class="menu_icon fa-home fa mr-1"></i> Accueil </strong></a>
+            </li>
+            <li class="nav-item mr-3 hover">
+                <a href="services.html" class="nav-link text-primary" ><strong><i class="fas fa-briefcase mr-1"></i>Le Club </strong></a>
+            </li>
+            <li class="nav-item mr-3 hover">
+                <a href="tarifs.html" class="nav-link text-primary" ><strong><i class="fas fa-question fa mr-1"></i> Tarifs </strong></a>
+            </li>
+            <li class="nav-item mr-3 hover activee">
+                <a href="contact.html" class="nav-link text-white" ><strong><i class="menu_icon fa-envelope fa mr-1"></i>  Contactez-Nous</strong></a>
+            </li>
+            <!-- <li class="nav-item mr-3">
+                <a href="contact.html" class="btn btn-primary text-primary" style="border-radius: 12px"><strong class="text-white">+32498429379</strong></a>
+            </li> -->
+        </ul>
+    </div>
+</nav>
+
+<!---------------End Section Navbar-------------------> 
+
+<!------------------scroll to the top----------------->
+    <button onclick="topFunction()" id="scrollToTheTop" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+<!------------------scroll to the top----------------->
+
+    <!---------------Start Section Header Home------------------->
+
+    <section id="contact-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 m-auto text-center">
+                    <h1 class="text-white">Contactez Nous</h1>
+                    <p class="lead mt-3 " style="font-size: 25px"><strong class="text-white"> Parachute Air Club du Maroc</strong></p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!---------------End Section Header Home --------------------------->
+
+    <!---------------Start Section Contact --------------------------->
+    
+    <section id="contact">
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card my-3">
+                        <div class="card-body py-5  pl-5">
+                            <h5 class="my-2"><strong> Parachute Air Club du Maroc </strong> et ses équipes professionnelles sont disponibles 7 jours sur 7 pour vous</h5>
+                            <h4><i class="fas fa-map-marker-alt mr-2"></i>Address</h4>
+                            <p>Aéroport de Béni Mellal</p>
+                            <h4><i class="fas fa-envelope mr-2"></i>Email</h4>
+                            <p> info@pacma.ma </p>
+                            <p>omarbenizi@hotmail.fr</p>
+                            <h4><i class="fas fa-phone mr-2" style="transform: rotate(90deg)"></i>Tel:</h4>
+                                </p> <h4>Omar Benïzi :</h4>+212 661 149 799 <br> +212 640 149 799</p>
+                            </p> <h4>Karim Zaz	:</h4>	+212 647 000 010</p>
+                            </p> <h4>Zahira Essabbar	:</h4>	+212 646 020 001</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 my-3">
+                    <form action="email.php" method="post">
+                    <div class="card">
+                        <div class="card-body p-5">
+                            <div class="card-title">
+                                <h3 class="text-center">Contactez-nous</h3>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input id="nom" type="text" name="nom" placeholder="Nom" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" name="prenom" placeholder="Prenom" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input name="tel" type="tel" placeholder="Tel" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" name="email" placeholder="Email" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <textarea  name="msg" class="form-control" rows="4" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="submit"  class="btn btn-outline-primary btn-block" value="Envoyer"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+      <!-- map code ---------------------------------------------------->
+        
+    <div class="mapouter container my-5">
+        <div class="gmap_canvas">
+            <iframe width="900" height="400" id="gmap_canvas" 
+            src="https://maps.google.com/maps?q=Beni%20Mellal%20Airport&t=&z=11&ie=UTF8&iwloc=&output=embed" 
+            frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+        </iframe>
+        <a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/"></a>
+        </div>
+        <style>
+            .mapouter{position:relative;text-align:right;height:400px;width:900px;}
+            .gmap_canvas {overflow:hidden;background:none!important;height:400px;width:900px;}
+            @media only screen and (max-width: 540px) {
+            .mapouter{position:relative;text-align:right;height:400px;width:100%;}
+            .gmap_canvas {overflow:hidden;background:none!important;height:400px;width:100%;}
+            }
+        </style>
+    </div>
+    
+<!-- map code ---------------------------------------------------->
+       
+
+<!---------------Start Section Footer info--------------------->
+<div class="bg-dark">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-3 text-white py-4">
+                    <img src="./img/logo.png" width="200" />
+                </div>
+                <div class="col-lg-3 text-white py-4">
+                    <h5>
+                        <p><i class="fas fa-map-marker-alt text-primary"></i>
+                        <strong>Addresse: </strong></p>
+                        Aéroport de Béni Mellal
+                    </h5>
+                </div>
+                <div class="col-lg-3 text-white py-4">
+                    <h5>
+                        <p><i class="fas fa-envelope mr-2 text-primary"></i>
+                        <strong>Email:</strong></p> 
+                        <p> info@pacma.ma </p>
+                        <p>omarbenizi@hotmail.fr</p>
+                    </h5>
+                </div>
+                <div class="col-lg-3 text-white py-4">
+                    <h3>
+                        <p><i class="fas fa-phone mr-2 text-primary" style="transform: rotate(90deg)"></i>
+                        <strong>Tel:</strong></h3>
+                            </p> <h4>Omar Benïzi :</h4>+212 661 149 799 <br> +212 640 149 799</p>
+                            </p> <h4>Karim Zaz	:</h4>	+212 647 000 010</p>
+                            </p> <h4>Zahira Essabbar	:</h4>	+212 646 020 001</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------Start Section Footer info--------------------->
+
+<!---------------Start Section Footer copyright--------------------->
+
+<footer>
+    <div class="container">
+        <p>Copyright © <span id="year"></span><strong> Parachute Air Club du Maroc </strong></p>
+        <div class="d-flex justify-content-center">
+            <div>
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a> 
+            </div>
+            <div>
+                <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a> 
+            </div>
+            <div>
+                <a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a> 
+            </div>
+        </div>
+    </div>
+</footer>
+    
+<!---------------End Section Footer copyright--------------------->
+
+<script src="http://code.jquery.com/jquery-3.3.1.min.js" 
+integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
+integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" 
+integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+
+<script src="./js/app.js"></script>
+    
+</body>
+</html>
